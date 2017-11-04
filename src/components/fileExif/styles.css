@@ -1,0 +1,47 @@
+.fileList {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 11px;
+  background: #F4F7F8;
+  padding: 8px;
+}
+.fileList .filename{
+  text-align: center;
+  margin-bottom: 4px;
+  width: 100%;
+}
+.fileExif{
+  display: flex;
+  margin-bottom: 3px;
+}
+.fileExifLabel{
+  color: #676F81;
+  width: 45%;
+  text-align: right;
+  padding-right: 4%;
+}
+.fileExifData{
+  color: #202631;
+  width: 45%;
+  padding-left: 4%;
+}
+.fileExifDataSize {
+  color: #676F81;
+  font-size: .76em;
+  text-align: center;
+  width: 100%;
+}
+.previewIMG {
+  margin: 0 auto;
+  display: block;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+  filter: drop-shadow(5px 5px 5px #222);
+  margin-bottom: 8px;
+}
+.fileExifName {
+  text-align: center;
+  width: 100%;
+  padding-top: 4px;
+  margin: 0px;
+}
