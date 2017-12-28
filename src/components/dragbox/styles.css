@@ -1,0 +1,27 @@
+.box
+{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+
+    position: relative;
+
+    padding: 0px 20px;
+
+    -webkit-transition: padding .15s ease-in-out, background-color .15s linear, font-size .15s linear;
+            transition: padding .15s ease-in-out, background-color .15s linear, font-size .15s linear;
+    text-align: center;
+
+    color: #676f81;
+    background: #fff;
+}
+.boxText{
+  height: 244px;
+  padding-top: calc(50% - 24px);
+  margin: 0px;
+}
+.box.dragging
+{
+    font-size: 18px;
+
+    background: #f4f7f8;
+}
