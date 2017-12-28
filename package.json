@@ -6,9 +6,9 @@
   "main": "./main.js",
   "scripts": {
     "start": "webpack-dev-server --colors",
-    "build": "NODE_ENV=build webpack -p",
-    "electron": "electron . --allow-file-access-from-files",
-    "package": "npm run build && electron-packager ./ ElectrExif --all --out ./package/ElectrExif --version 0.0.1 --overwrite --icon=./static/tray@2x.png"
+    "build": "webpack -p",
+    "electron": "NODE_ENV=dev electron . --allow-file-access-from-files",
+    "package": "npm run build && electron-packager ./dist ElectrExif --out ./package/ElectrExif --version 0.0.1 --overwrite --icon=./static/tray@2x.png"
   },
   "author": "dottavio@gmail.com",
   "license": "MIT",

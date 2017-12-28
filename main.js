@@ -1,13 +1,13 @@
 const {app, Tray, BrowserWindow, ipcMain} = require('electron');
 const path = require('path');
 const appIconActive = path.join(__dirname, 'static', 'tray.png');
-const appUrl = process.env.NODE_ENV !== 'build' ? 'http://localhost:8080' : `file://${__dirname}/dist/index.html`;
+const appUrl = process.env.NODE_ENV === 'dev' ? 'http://localhost:8080' : `file://${__dirname}/dist/index.html`;
 const defaultWindowSize = {
   width: 280,
   height: 244,
 };
 // for debugging purpose
-if (process.env.NODE_ENV !== 'build') {
+if (process.env.NODE_ENV === 'dev') {
   require('electron-debug')({showDevTools: true});
 }
 
