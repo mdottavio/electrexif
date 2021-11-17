@@ -29,7 +29,7 @@
     "babel-preset-es2015": "^6.24.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
-    "electron": "^1.7.11",
+    "electron": "^16.0.0",
     "electron-debug": "^1.4.0",
     "electron-packager": "9.1.0",
     "exifreader": "^2.1.1",
