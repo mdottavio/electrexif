@@ -32,7 +32,7 @@
     "electron": "^1.7.11",
     "electron-debug": "^1.4.0",
     "electron-packager": "9.1.0",
-    "exifreader": "^2.1.1",
+    "exifreader": "^4.0.0",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "preact": "^8.1.0",
